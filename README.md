@@ -10,6 +10,16 @@ event loops, the Redis protocol and more.
 **Note**: If you're viewing this repo on GitHub, head over to
 [codecrafters.io](https://codecrafters.io) to try the challenge.
 
+# Nix Development Environment
+
+This project includes a Nix flake for reproducible development environment setup.
+
+To use it:
+1. Install Nix (https://nixos.org/download)
+2. Enable flakes (https://nixos.wiki/wiki/Flakes#Enable_flakes)
+3. Run `nix develop` to enter the development environment
+4. Run `nix run .` to run the Redis server
+
 # Passing the first stage
 
 The entry point for your Redis implementation is in `app/main.go`. Study and
