@@ -25,6 +25,8 @@
             go_1_24
             gopls
             gotools
+            redis
+            redli
           ];
           
           shellHook = ''
